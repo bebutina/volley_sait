@@ -1,0 +1,806 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+   
+   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+img{
+    width:100%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* reset style */
+
+
+
+/* матчи */
+
+.tablet__1and2{
+    display: flex;
+    flex-direction: row;
+}
+
+.main__match {
+    display: flex;
+    margin-bottom: 80px;
+    margin-left: 8%;
+
+}
+.match__data {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.data__title {
+    font-size: 40px;
+
+}
+
+.data__tablet {
+    margin-top: 30px;
+
+}
+.tablet__elem {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 450px;
+    background-color:#F3EBEB ;
+    padding-bottom: 10px;
+
+
+
+}
+.tablet__elem2 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 450px;
+    background-color:#F3EBEB ;
+    padding-bottom: 10px;
+    margin-left: 200px;
+
+
+
+}
+.tablet__elem3 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 600px;
+    background-color:#F3EBEB ;
+    padding-bottom: 10px;
+    margin-left: 300px;
+    margin-top: 100px;
+
+
+
+}
+
+
+.elem__clock {
+    background-color: #00A9E0;
+    width: 100%;
+    color: white;
+    font-size:32px;
+
+}
+.elem__clock__final{
+    background-color: #00A9E0;
+    width: 100%;
+    color: white;
+    font-size:40px;
+    
+}
+.elem__versus {
+    display: flex;
+    align-items: center;
+    
+}
+.versus__ask {
+    width: 40%;
+
+}
+.versus__time {
+    font-size: 40px;
+    color: #00A9E0;
+
+}
+.versus__zenit {
+    width: 40%;
+
+}
+.elem__btn {
+    font-size: 35px;
+    align-self: center;
+    color: white;
+    background-color: #00A9E0;
+    border: none;
+    padding: 7px;
+
+}
+.versus__kuzb{
+    width: 40%;
+}
+
+.main__tablica {
+    margin-left: 200px;
+    
+    width: 33%;
+
+}
+.tablica__text {
+    font-size: 40px;
+
+}
+.tablica__elem {
+    width: 65%;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* шапка */
+
+.body__header {
+    background-color: #3943B7;
+
+}
+.body__header>div{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    
+}
+.header__logo {
+    width: 100px;
+   
+
+}
+
+.nav__list {
+    display: flex;
+    gap: 100px;
+}
+
+.item__link {
+    color: white;
+    font-size: 25px;
+
+}
+
+
+
+
+/* команда */
+
+.main__team {
+    background-color: #3943B7;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px;
+
+
+}
+.team__title {
+    width:30%;
+    color: white;
+    align-items: center;
+    font-size: 50px;
+}
+.title__text {
+
+}
+.team__img {
+    width: 50%;
+    height: 100%;
+    
+    
+
+
+}
+/* новости */
+
+
+.main__news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3943B7;
+    flex-direction: column;
+}
+
+.news__data{
+    display: flex;
+}
+
+.news__text{
+    color: white;
+    font-size: 60px;
+}
+
+.news__first {
+    
+}
+.first__img {
+    padding: 20px 0px 20px 20px;
+}
+
+.first__text {
+    color: white;
+    font-size: 50px;
+    padding: 10px 0px 0px 30px;
+}
+
+.news__second {
+    padding: 20px 20px 20px 0px;
+    margin-left: 100px;
+}
+
+.second__img {
+}
+
+.second__text {
+    color: white;
+    font-size: 50px;
+    padding: 10px 0px 0px 30px;
+}
+
+
+/* лучшие игроки */
+.main__players {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.players__cart {
+    display: flex;
+    justify-content:space-evenly;
+}
+.players__cart>div{
+    /* width: 25%; */
+}
+.volkov{
+    width: 40%;
+}
+.fedorova{
+    width: 40%;
+}
+.cart__volkov {
+    width: 100%;
+    margin: 0px;
+    
+}
+.cart__fedorov {
+    width: 100%;
+    margin: 0px;
+    
+}
+.cart__text{
+    color: white;
+    background-color: #00A9E0;
+    font-size: 58px;
+    width: 100%;
+    margin: 0px;
+    /* min-width: 500px; */
+    
+    
+}
+
+.main__best{
+    font-size: 64px;
+}
+
+/* ютуб */
+.main__youtube {
+    background-color: #3943B7;
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    width: 100%;
+    
+}
+.youtube__our {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    
+
+}
+.our__text {
+    color: white;
+    font-size: 64px;
+    margin-top: 0px;
+}
+
+.our__video{
+    height: 700px;
+    width: 1400px;
+    
+}
+
+/* футер */
+
+.footer {
+    height: 100px;
+}
+.footer_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F2929;
+
+}
+.div__img {
+    width: 10%;
+    display: flex;
+    min-width: 100px
+}
+.div__text {
+    color: white;
+    font-size: 64px;
+}
+
+/* медиа */
+@media(max-width:1700px){
+    .main__match{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__tablica{
+        justify-content: center;
+    }
+}
+
+@media(max-width:1450px){
+    .our__video{
+        height: 600px;
+        width: 1000px;
+    }
+    .main__youtube{
+        height: 800px;
+    }
+}
+
+@media(max-width:1400px){
+    .volkov , .fedorova{
+        width: 35%;
+    }
+}
+
+
+@media(max-width:1350px){
+    .tablet__1and2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .match__data{
+        align-items: center;
+    }
+    .data__tablet{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tablet__elem2{
+        margin: 0px;
+        margin-bottom: 30px;
+        
+    }
+    .tablet__elem{
+        margin-bottom: 30px;
+    }
+    .tablet__elem3{
+        margin: 0px;
+    }
+    .main__match{
+        align-items: center;
+    }
+    .main__tablica{
+        margin: 0px;
+        margin-left: 30px;
+    }
+    .main__match{
+        margin: 0px;
+    }
+}
+
+
+@media(max-width:1300px){
+    .team__title{
+        text-align: center;
+    }
+
+}
+
+@media(max-width:1150px){
+    .body__header>div{
+        gap: 30px;
+        flex-direction: column;
+        
+    }
+    .header__nav{
+        width: 100%;
+    }
+    .nav__list{
+        justify-content: space-around;
+        gap: 0px;
+    }
+    
+}
+@media(max-width:1100px){
+    .news__data{
+        flex-direction: column;
+        align-items: center;
+    }
+    .first__img{
+        width: 75%;
+        /* padding-left:  180px; */
+        padding: 0px;
+    }
+    .news__first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .news__second{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    .first__text,.second__text{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .second__img{
+        width: 80%;
+        
+    }
+    .our__video{
+        height: 500px;
+        width: 800px;
+    }
+    .main__youtube{
+        height: 700px;
+    }
+
+    
+}
+
+
+@media(max-width:1000px){
+    .players__cart{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__players{
+        justify-content: center;
+        align-items: center;
+    }
+    .volkov, .fedorova{
+        width: 50%;
+    }
+}
+
+@media(max-width:930px){
+    .main__team{
+
+    
+    flex-direction:column ;
+    }
+    .team__img,.team__title{
+        width: 70%;
+
+    }
+    .our__video{
+        height: 400px;
+        width: 600px;
+    }
+    .main__youtube{
+        height: 600px;
+    }
+    
+}
+
+@media(max-width:800px){
+    .first__text, .second__text{
+     font-size: 40px;
+    }
+ }
+
+@media(max-width:700px){
+    /* .first__img{
+        padding-left:100px
+    } */
+
+    .second__img{
+        padding-left: 0px;
+    }
+
+    .tablet__elem{
+        width: 100%;
+    }
+    .main__tablica{
+        width: 50%;
+    }
+}
+
+@media(max-width:610px){
+    .our__video{
+        height: 300px;
+        width: 450px;
+    }
+    .main__youtube{
+        height: 500px;
+    }
+}
+
+@media(max-width:600px){
+    .tablet__elem3{
+        width: 90%;
+        /* margin-left: 50px; */
+    }
+    .tablet__elem, .tablet__elem2{
+        
+    }
+    .versus__zenit{
+        
+    }
+    
+    .tablet__elem{
+        
+    }
+    
+}
+
+@media(max-width:500px){
+    .nav__list {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    
+    }
+    .body__header{
+        padding: 10px 0px;
+    }
+    .team__img,.team__title{
+        width: 95%;
+    }
+    .team__title{
+        font-size:40px
+    }
+    .main__team{
+        padding: 20px 0px;
+    }
+    .main__youtube{
+        height: 350px;
+
+    }
+    .our__video{
+        width: 300px;
+        height: 300px;
+    }
+    .tablet__elem{
+        width: 300px;
+    }
+    .tablet__elem2{
+        width: 300px;
+    }
+    .versus__ask, .versus__zenit{
+        width: 35%;
+    }
+    .div__text{
+        font-size: 40px;
+    }
+    .cart__text{
+        font-size: 30px;
+    }
+    .main__best{
+        text-align: center;
+    }
+}
+
+@media(max-width:350px){
+    .versus__ask, .versus__zenit, .versus__kuzb{
+        width: 30%;
+    }  
+}
+
+/* 7 марта делаю */
+
+/* @media(max-width:1700px){
+    .main__match{
+        flex-direction: column;
+    }
+    .main__tablica{
+        justify-content: center;
+    }
+} */
+
+/* @media(max-width:1350px){
+    .tablet__1and2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .match__data{
+        align-items: center;
+    }
+    .data__tablet{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tablet__elem2{
+        margin: 0px;
+        margin-bottom: 30px;
+        
+    }
+    .tablet__elem{
+        margin-bottom: 30px;
+    }
+    .tablet__elem3{
+        margin: 0px;
+    }
+    .main__match{
+        align-items: center;
+    }
+    .main__tablica{
+        margin: 0px;
+        margin-left: 30px;
+    }
+} */
+
+
+/* @media(max-width:1000px){
+    .tablica__elem{
+        width: 40%;
+        margin: 0px;
+    }
+    .main__tablica{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 500px;
+    }
+    
+} */
+/* @media(max-width:700px){
+    .main__tablica{
+        padding-left: 250px;
+    }
+} */
+
+/* @media(max-width:600px){
+    .tablet__elem3{
+        width: 90%;
+        margin-left: 50px;
+    }
+    .tablet__elem, .tablet__elem2{
+        width: 80%;
+    }
+    .versus__zenit{
+        
+    }
+    
+    .tablet__elem{
+        
+    }
+    
+} */
+
+
+/* новости */
+/* @media(max-width:800px){
+   .first__text, .second__text{
+    font-size: 40px;
+   }
+} */
+
+/* @media(max-width:1100px){
+    .news__data{
+        flex-direction: column;
+
+    }
+    .first__img{
+        width: 75%;
+        padding-left:  180px;
+    }
+    .news__first{
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .first__text,.second__text{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .second__img{
+        width: 80%;
+        padding-left: 100px;
+    }
+} */
+/* @media(max-width:700px){
+    .first__img{
+        padding-left:100px
+    }
+    .second__img{
+        padding-left: 0px;
+    }
+} */
+
+/* лучшие игроки */
+
+/* @media(max-width:1700px){
+    .cart__text{
+        font-size: 50px;
+        width: 70%;
+    }
+} */
+
+
+/* @media(max-width:1400px){
+    .volkov , .fedorova{
+        width: 35%;
+    }
+} */
+
+
+/* @media(max-width:1000px){
+    .players__cart{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__players{
+        justify-content: center;
+        align-items: center;
+    }
+    .volkov, .fedorova{
+        width: 50%;
+    }
+} */
